@@ -10,6 +10,9 @@ $ git submodule update --init --checkout
 
 $ make menuconfig
 
+Select Mainboard-->Mainboard vendor(Emulation)
+                -->Mainboard model(QEMU AArch64(virt))
+
 $ make crossgcc-aarch64
 
 $ make
