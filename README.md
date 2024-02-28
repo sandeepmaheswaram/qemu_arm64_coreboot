@@ -13,7 +13,7 @@ $ make menuconfig
 Select Mainboard-->Mainboard vendor(Emulation)
                 -->Mainboard model(QEMU AArch64(virt))
 
-$ make crossgcc-aarch64
+$ make crossgcc-aarch64  //Builds crosscompiler for aarch64
 
 $ make
 
